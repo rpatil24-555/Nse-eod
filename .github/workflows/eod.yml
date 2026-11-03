@@ -1,0 +1,30 @@
+name: Daily EOD data
+on:
+  schedule:
+    - cron: '37 13 * * 1-5'   # 19:07 IST, Mon-Fri
+    - cron: '7 17 * * 1-5'    # 22:37 IST, second try
+  workflow_dispatch:
+  push:
+    paths: ['fetch_eod.py', 'watchlist.txt', '.github/workflows/eod.yml']
+permissions:
+  contents: write
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install --quiet requests pandas yfinance
+      - run: python fetch_eod.py
+      - name: Save results
+        if: always()
+        run: |
+          git config user.name "eod-bot"
+          git config user.email "eod-bot@users.noreply.github.com"
+          git add -A README.md watchlist.txt data
+          git diff --staged --quiet || git commit -m "EOD update $(date -u +%F)"
+          git pull --rebase --autostash || true
+          git push
