@@ -1,19 +1,19 @@
 # NSE end-of-day watchlist
 
-Updated 05 Nov 2026, 23:25 IST · latest trading day **2026-11-05**
+Updated 06 Nov 2026, 20:03 IST · latest trading day **2026-11-06**
 
 | Stock | Close | Chg % | Deliv % | Date | Source |
 |---|---:|---:|---:|---|---|
-| RELIANCE | 1,313.40 | 0.18 | 46.5 | 2026-11-05 | NSE full |
-| HDFCBANK | 760.00 | 3.16 | 63.1 | 2026-11-05 | NSE full |
-| TCS | 2,495.70 | 2.45 | 61.8 | 2026-11-05 | NSE full |
-| INFY | 1,167.40 | 3.47 | 51.2 | 2026-11-05 | NSE full |
-| ICICIBANK | 1,500.00 | 5.33 | 70.8 | 2026-11-05 | NSE full |
-| SBIN | 1,006.40 | 2.80 | 54.1 | 2026-11-05 | NSE full |
-| ITC | 278.85 | -0.41 | 55.8 | 2026-11-05 | NSE full |
-| LT | 4,050.00 | 2.68 | 56.8 | 2026-11-05 | NSE full |
-| NIFTY 50 | 24,536.60 | 2.40 |  | 2026-11-05 | NSE index |
-| NIFTY BANK | 57,773.65 | 3.33 |  | 2026-11-05 | NSE index |
+| RELIANCE | 1,320.00 | 0.50 | 66.8 | 2026-11-06 | NSE full |
+| HDFCBANK | 788.25 | 3.72 | 63.2 | 2026-11-06 | NSE full |
+| TCS | 2,498.50 | 0.11 | 45.8 | 2026-11-06 | NSE full |
+| INFY | 1,181.40 | 1.20 | 52.2 | 2026-11-06 | NSE full |
+| ICICIBANK | 1,571.20 | 4.75 | 66.8 | 2026-11-06 | NSE full |
+| SBIN | 1,018.50 | 1.20 | 48.7 | 2026-11-06 | NSE full |
+| ITC | 283.15 | 1.54 | 49.4 | 2026-11-06 | NSE full |
+| LT | 4,117.70 | 1.67 | 60.2 | 2026-11-06 | NSE full |
+| NIFTY 50 | 25,030.35 | 2.01 |  | 2026-11-06 | NSE index |
+| NIFTY BANK | 59,086.00 | 2.27 |  | 2026-11-06 | NSE index |
 
 ⚠ = older than the latest day (that source had not published yet)
 
@@ -21,9 +21,9 @@ Updated 05 Nov 2026, 23:25 IST · latest trading day **2026-11-05**
 
 | Source | Result | Date | Detail |
 |---|---|---|---|
-| NSE full file (delivery %) | ✅ | 2026-11-05 | 8 of 8 stocks |
-| NSE daily file (new format) | ✅ | 2026-11-05 | 8 of 8 stocks |
-| BSE daily file | ✅ | 2026-11-05 | 8 of 8 stocks |
-| NSE index file | ✅ | 2026-11-05 | 2 of 2 indices |
+| NSE full file (delivery %) | ✅ | 2026-11-06 | 8 of 8 stocks |
+| NSE daily file (new format) | ✅ | 2026-11-06 | 8 of 8 stocks |
+| BSE daily file | ✅ | 2026-11-06 | 8 of 8 stocks |
+| NSE index file | ✅ | 2026-11-06 | 2 of 2 indices |
 
 To change stocks, edit `watchlist.txt` in this repository.
