@@ -1,5 +1,5 @@
 {
- "run_at_ist": "2026-11-09T23:26+05:30",
+ "run_at_ist": "2026-11-10T20:00+05:30",
  "symbols": [
   "RELIANCE",
   "HDFCBANK",
@@ -18,7 +18,7 @@
   {
    "source": "NSE full file (delivery %)",
    "ok": true,
-   "date": "2026-11-09",
+   "date": "2026-11-10",
    "detail": "8 of 8 stocks"
   },
   {
@@ -29,15 +29,21 @@
   },
   {
    "source": "BSE daily file",
-   "ok": true,
-   "date": "2026-11-09",
-   "detail": "8 of 8 stocks"
+   "ok": false,
+   "date": "2026-11-10",
+   "detail": "0 of 8 stocks"
   },
   {
    "source": "NSE index file",
    "ok": true,
    "date": "2026-11-09",
    "detail": "2 of 2 indices"
+  },
+  {
+   "source": "Yahoo Finance",
+   "ok": true,
+   "date": "2026-11-09",
+   "detail": "2 of 2 (backup source)"
   }
  ]
 }
