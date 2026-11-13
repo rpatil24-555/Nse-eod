@@ -1,6 +1,6 @@
 # NSE end-of-day watchlist
 
-Updated 13 Nov 2026, 20:01 IST · latest trading day **2026-11-13**
+Updated 13 Nov 2026, 23:21 IST · latest trading day **2026-11-13**
 
 | Stock | Close | Chg % | Deliv % | Date | Source |
 |---|---:|---:|---:|---|---|
